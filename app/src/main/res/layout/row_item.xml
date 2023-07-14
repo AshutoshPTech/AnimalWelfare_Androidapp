@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="25dp"
+    android:layout_margin="20dp"
+    app:cardCornerRadius="40dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/productImageView"
+            android:src="@drawable/happy"
+            android:padding="5dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/nameTextView"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="Pet Name"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/descriptionTextView"
+                android:textColor="@color/cardview_dark_background"
+                android:textStyle="normal"
+                android:textSize="13sp"
+                android:maxLines="1"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Product Description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/pprice"
+                android:textColor="@color/cardview_dark_background"
+                android:textStyle="bold"
+                android:textColorHighlight="@color/colorAccent"
+                android:textSize="15sp"
+                android:text="Pet Breed:-"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

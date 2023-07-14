@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "224276140447",
+    "firebase_url": "https://animalcare-b79a9-default-rtdb.firebaseio.com",
+    "project_id": "animalcare-b79a9",
+    "storage_bucket": "animalcare-b79a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:224276140447:android:c3673f933cd4b2f9d0adaa",
+        "android_client_info": {
+          "package_name": "com.Pie4u.animalcare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "224276140447-ipp1gklrqo60kaqkj0jj1evteuu2m1v7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Pie4u.animalcare",
+            "certificate_hash": "7517aafdc1c7d772f9bade8ff9a2980d5efa7f80"
+          }
+        },
+        {
+          "client_id": "224276140447-7goto9t04v3pn6ntf83hmi7m4f3hpleq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCczcRUsAf4nh1NRWqGEbzZHqi6AL6r77s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "224276140447-7goto9t04v3pn6ntf83hmi7m4f3hpleq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

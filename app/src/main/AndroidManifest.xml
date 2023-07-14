@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.Pie4u.animalcare">
+
+    <uses-feature
+        android:name="android.hardware.Camera"
+        android:required="true" />
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/applg"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/applg"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDyFCZX4gauYeB5r6lRJPaLXqtwOUvYLpk" />
+        <activity android:name="com.Pie4u.animalcare.MapActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="com.Pie4u.animalcare.PhoneVerificationActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.Pie4u.animalcare.RescueSignUpActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/splashTheme" />
+        <activity
+            android:name="com.Pie4u.animalcare.MainActivity"
+            android:theme="@style/splashTheme1"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.Pie4u.animalcare.VolunteerHomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/splashTheme1"/>
+        <activity android:name="com.Pie4u.animalcare.RescueActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/splashTheme1"/>
+        <activity
+            android:name="com.Pie4u.animalcare.AnimalRescueLoginActivity"
+            android:theme="@style/splashTheme1"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.Pie4u.animalcare.CreatePostActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.Pie4u.animalcare.HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/splashTheme1" />
+        <activity
+            android:name="com.Pie4u.animalcare.Signup"
+            android:screenOrientation="portrait"
+            android:theme="@style/splashTheme1" />
+        <activity
+            android:name="com.Pie4u.animalcare.profile"
+            android:screenOrientation="portrait"
+            android:theme="@style/splashTheme1" />
+        <activity android:name="com.Pie4u.animalcare.editprofile" android:theme="@style/splashTheme1"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.Pie4u.animalcare.ForgotPass"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.Pie4u.animalcare.splashscreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/splashTheme1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".bs_ad"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".view_ads"
+            android:exported="false" />
+        <activity
+            android:name=".create_ad"
+            android:exported="false" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <service
+            android:name="com.Pie4u.animalcare.MyFirebaseNotification"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

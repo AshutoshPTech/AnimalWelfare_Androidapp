@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VolunteerProfleFragment">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#22242A">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageViewVolunteerPhoto"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/happy"
+                 />
+
+
+                <TextView
+                    android:id="@+id/textViewVolunteerName"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+
+                    android:background="@drawable/new_border_frame"
+                    android:ems="10"
+                   android:layout_below="@id/imageViewVolunteerPhoto"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="30dp"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:text="Name"/>
+
+                <TextView
+                    android:id="@+id/textViewVolunteerPhoneNo"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewVolunteerName"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/new_border_frame"
+                    android:ems="10"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:text="Phone No"/>
+
+                <TextView
+                    android:id="@+id/textViewVolunteerOrganization"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewVolunteerPhoneNo"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/new_border_frame"
+                    android:ems="10"
+                    android:padding="10dp"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:text="Organization"/>
+
+                <TextView
+                    android:id="@+id/textViewVolunteerEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewVolunteerOrganization"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/new_border_frame"
+                    android:ems="10"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:text="Email"/>
+
+                <Button
+                    android:id="@+id/btnVolunteerLogout"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:text="Log Out"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:background="#1DC4E7"
+                    />
+
+
+
+            <Button
+                android:id="@+id/btnEditVolunteerProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewVolunteerEmail"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:textSize="16sp"
+                android:textAllCaps="false"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:background="#1DC4E7"
+                android:text="Edit Profile" />
+
+        </RelativeLayout>
+
+
+
+</FrameLayout>

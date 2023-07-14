@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#22242A"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/Loginbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#1DC4E7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Login"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_below="@+id/frgtpassbutton"
+       />
+
+    <Button
+        android:id="@+id/Signupbtn"
+        android:layout_width="128dp"
+        android:layout_height="55dp"
+       android:layout_below="@id/LoginPassword"
+        android:layout_marginTop="40dp"
+        android:layout_toRightOf="@id/Loginbtn"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:background="#1DC4E7"
+        android:textColor="#ffffff"
+        android:text="Create New Account"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/frgtpassbutton"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+       android:layout_below="@+id/LoginPassword"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:background="#1DC4E7"
+        android:textColor="#ffffff"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="50dp"
+        android:text="Forgot Password"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/LoginPassword"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+      android:layout_centerHorizontal="true"
+        android:layout_below="@+id/LoginUsername"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:background="@drawable/btnback1"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        />
+
+    <EditText
+        android:id="@+id/LoginUsername"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+       android:layout_below="@+id/Maintext2"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btnback1"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textEmailAddress"
+
+        />
+
+    <TextView
+        android:id="@+id/Maintext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Animal Welfare"
+        android:textAlignment="center"
+        android:textColor="#1DC4E7"
+        android:fontFamily="@font/alata"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/Maintext2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_below="@+id/Maintext"
+        android:text="Login"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/TextViewAnimalRescue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/Loginbtn"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:padding="10dp"
+        android:text="Rescue Login"
+        android:textColor="#1DC4E7"
+        android:textSize="18sp"
+        android:textStyle="bold"
+         />
+</RelativeLayout>

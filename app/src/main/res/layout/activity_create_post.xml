@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#22242A"
+    tools:context=".CreatePostActivity">
+
+    <ImageView
+        android:id="@+id/imageViewCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:padding="10dp"
+        app:srcCompat="@drawable/ic_cancel_black_24dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toRightOf="@+id/imageViewCancel"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:padding="5dp"
+        android:text="Create a Blog Post"
+        android:textColor="#ffffff"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TextViewAddDesc"
+        android:fontFamily="@font/alata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Your Description"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:paddingStart="10dp"
+        android:layout_below="@+id/imageViewCancel"
+        />
+
+    <ScrollView
+        android:id="@+id/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@id/TextViewAddDesc"
+        android:background="@android:color/white"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/EditTextBlogPost"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/border_frame"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="start"
+                android:textColor="#000000"
+                android:inputType="textMultiLine"
+                android:lineSpacingExtra="4sp"
+                android:padding="10dp"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/TextViewAddImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alata"
+        android:text="Upload A Photo"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:paddingStart="10dp"
+        android:layout_below="@+id/ScrollView"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/TextViewAddImage"
+        android:background="@drawable/border_frame"
+        />
+
+    <ImageView
+        android:id="@+id/ImageVIewAddPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/TextViewAddImage"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@drawable/ani1" />
+
+    <Button
+        android:id="@+id/BtnPost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ImageVIewAddPhoto"
+        android:layout_marginTop="40dp"
+        android:text="Post"
+        android:textColor="#ffffff"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:background="#1DC4E7"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>

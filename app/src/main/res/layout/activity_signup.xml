@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#22242A"
+    tools:context=".Signup">
+
+    <TextView
+        android:id="@+id/Create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#1DC4E7"
+        android:fontFamily="@font/alata"
+        android:text="Create New Account "
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/emailText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Create"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:ems="10"
+        android:hint="Enter Email"
+        android:textAlignment="center"
+        android:inputType="textEmailAddress"
+        android:text=""
+        android:background="@drawable/btnback1"
+       />
+
+    <EditText
+        android:id="@+id/LoginPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+        android:layout_below="@id/emailText"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:background="@drawable/btnback1"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+         />
+
+    <ImageView
+        android:id="@+id/motisignup"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/Signupbtn2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/dog1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="420dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Lets start with\ncreating an account"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/Signupbtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#1DC4E7"
+        android:text="signup"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffff"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/LoginPassword"
+        />
+</RelativeLayout>

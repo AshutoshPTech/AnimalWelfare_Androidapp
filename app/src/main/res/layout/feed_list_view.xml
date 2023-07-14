@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp"
+    android:padding="30dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="324dp"
+        android:background="#22242A">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ImageViewProfile"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/user"
+            android:padding="5dp" />
+
+        <TextView
+            android:id="@+id/TextViewUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toEndOf="@id/ImageViewProfile"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:padding="3dp"
+            android:text="Supriy Jinturkar"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/TextViewDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/blogImageView"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:fontFamily="sans-serif-medium"
+            android:padding="3dp"
+            android:text="18-May-2020"
+            android:textColor="#ffffff"
+            android:textSize="10sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/TextViewBlog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ImageViewProfile"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:inputType="textMultiLine"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:maxLines="3"
+            android:padding="5dp"
+            android:textColor="#ffffff"
+            android:text="Hello this is my First Blog
+.This is my dog Donks . He is a very smart dog
+and he is a 'Export' in Stock Market Bizzness."
+            android:textSize="15sp" />
+
+
+        <ImageView
+            android:id="@+id/blogImageView"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/TextViewBlog"
+            android:layout_centerHorizontal="true"
+            android:scaleType="fitXY"
+            />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        />
+
+</androidx.cardview.widget.CardView>
+
