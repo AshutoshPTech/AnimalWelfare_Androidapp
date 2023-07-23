@@ -1,8 +1,6 @@
 
 # Animal Welfare Android App
 
-![Animal Welfare Logo](path_to_your_logo.png) (Optional)
-
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
@@ -33,7 +31,46 @@ Animal Welfare is an Android app aimed at facilitating animal rescue operations 
 
 ## Screenshots
 
-(Optional: Add some screenshots of your app in action)
+1. Flowchart
+
+   ![image-001](https://github.com/AshutoshPTech/AnimalWelfare_Androidapp/assets/128606760/5c656ddd-37b1-4fa6-a5f2-e0ed50a3c468)
+
+2. System Working
+   
+  ![image-004](https://github.com/AshutoshPTech/AnimalWelfare_Androidapp/assets/128606760/bb46221d-b9e3-4cf4-b5d3-35256341ad80)
+
+3. Splash Screen
+
+    ![image-009](https://github.com/AshutoshPTech/AnimalWelfare_Androidapp/assets/128606760/a1eb51e2-7c71-4cd5-b900-328cecb37eb9)
+
+4. Registeration Page
+   
+     ![image-010](https://github.com/AshutoshPTech/AnimalWelfare_Androidapp/assets/128606760/709b9117-f967-4dd6-bbfa-52b429f0a539)
+
+5. Login Page
+   
+   ![image-011](https://github.com/AshutoshPTech/AnimalWelfare_Androidapp/assets/128606760/8efd60c4-a195-4826-950f-6ec3b4eb783d)
+
+6. Feed Section
+   
+   ![image (2)](https://github.com/AshutoshPTech/AnimalWelfare_Androidapp/assets/128606760/43d5704f-326e-44cd-84f5-16a960afa4c7)
+   
+7. Animal help & Volunteer page
+
+   
+   ![merge_from_ofoct](https://github.com/AshutoshPTech/AnimalWelfare_Androidapp/assets/128606760/4e94230b-453c-414b-9ca8-6551e8667fad)
+
+8. Volunteer Registeration & Login
+   
+  ![merge_from_ofoct (1)](https://github.com/AshutoshPTech/AnimalWelfare_Androidapp/assets/128606760/63db518c-c4f9-4f2d-bba4-06eed72e8dfc)
+
+9. Adopt-Pet Section
+
+   ![merge_from_ofoct (3)](https://github.com/AshutoshPTech/AnimalWelfare_Androidapp/assets/128606760/5e764974-c9e4-4a91-9e97-9422ff503682)
+
+
+
+
 
 ## Requirements
 
