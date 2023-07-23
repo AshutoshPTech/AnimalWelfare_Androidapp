@@ -115,4 +115,7 @@ The Animal Welfare app is released under the [MIT License](LICENSE).
 
 ## Contact
 
-If you have any questions, suggestions, or feedback, you can reach us at .
+If you have any questions, suggestions, or feedback, you can reach us at
+- Ashutosh Pandey - ashuudemy1408@gmail.com
+- Akil Sarang - sarangakil74@gmail.com
+- Yash Thakur - yashthakur0572000@gmail.com
